@@ -1,0 +1,232 @@
+/*Global CSS*/
+* {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+
+}
+
+/*All h1 and h2 should be in the middle*/
+h1,
+h2 {
+
+  text-align: center;
+  margin: 50px;
+
+}
+/*Image css*/
+img {
+
+  max-width: 100%;
+  height: auto;
+
+}
+
+/*Navbar*/
+
+.navbar-box {
+  /*Standard nav-bar values*/
+  width: auto;
+  height: auto;
+  background-color: rgb(254, 197, 10);
+  ;
+
+  /*Flexbox to organize the items in the navigation bar*/
+  /*https://www.w3schools.com/csS/css3_flexbox.asp*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*Shaping the navbar and givivng it form*/
+.navbar-item {
+  width: 100px;
+  margin: 5px;
+  padding: 10px;
+  margin-right: 5px;
+  text-align: center;
+  align-content: center;
+
+}
+
+/*index.html specific*/
+
+.body-container {
+  margin-bottom: 10px;
+}
+
+/*This is the items class in the container, to make the items have the desired look*/
+.body-item1 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+
+}
+/*Uses the "container" class to create the possibility to spread 
+the items inside, evenly and neatly using flexbox css.*/
+.body-item1-div {
+  padding: 10px;
+  margin: 15px;
+  height: 50px;
+  width: 150px;
+  flex-wrap: wrap;
+
+  align-items: center;
+  border-top: 1px solid black;
+
+}
+
+.body-item1-div p {
+  display: flex;
+  flex-direction: column;
+}
+
+/*text in middle*/
+
+.body-item2 {
+  text-align: center;
+  font-size: 25px;
+  margin: 50px;
+}
+
+/*Tables specific CSS*/
+/*Table-conatiner makes sure all the tables fall under eachother*/
+.body-item3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*Table item organizes its contet so it looks neatly when viewed*/
+.body-item3-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+  justify-self: center;
+  width: 100%;
+}
+
+.body-item3 h3 {
+  background-color: rgb(254, 197, 10);
+  padding: 5px;
+}
+
+/*here we remove the hard borders of the table and moce te text to the left*/
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/*We change the caption font*/
+table caption {
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+/*Tablehead gets a solid line over it*/
+th {
+  border-top: 0.5px solid black;
+}
+
+/*tablehead and tabledata gets some styling*/
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+  flex-wrap: wrap;
+}
+
+
+/*accessibility.hmtl specific*/
+/*This is the items class in the container, to make the items have the desired look*/
+.accessibility-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 25px;
+
+}
+
+/*This is the items class in the container, to make the items have the desired look*/
+.accessibility {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 750px;
+  margin-bottom: 25px;
+
+}
+
+/*activity.html specific*/
+/*Uses the "container" class to create the possibility to spread 
+the items inside, evenly and neatly using flexbox css.*/
+.activities-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 25px;
+
+}
+
+/*This is the items class in the container, to make the items have the desired look*/
+.activities {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 25px;
+
+}
+
+/*speicific css*/
+.activities h2 {
+  margin: 10px;
+}
+
+/*speicific css*/
+.activities img {
+  max-width: 75%;
+  height: auto;
+
+}
+
+/*github.html specific*/
+/*Uses the "container" class to create the possibility to spread 
+the items inside, evenly and neatly using flexbox css.*/
+.github-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 25px;
+
+}
+
+/*This is the items class in the container, to make the items have the desired look*/
+.github {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 25px;
+
+}
+
+/*speicific css*/
+.github h2 {
+  margin: 10px;
+}
